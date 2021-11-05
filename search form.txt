@@ -1,0 +1,32 @@
+print "
+<br /><br />
+<form action = 'search.php' method = 'POST' >
+    <table class = 'search'>
+        <tr> 
+            <td>Gene name</td> 
+            <td>Biotype</td> 
+            <td>Chromosome</td> 
+            <td>Description</td> 
+         </tr>
+         <tr>
+            <td>
+                <input type = 'text' name = 'gene_name_selected'>
+            </td> 
+            <td>
+                <select name = 'biotype_selected'>
+    
+                </select>
+            </td>
+            <td>
+                <select name = 'chromosome_selected'>
+				
+                </select>
+            </td>
+            <td>
+                <input type = 'text' name = 'description_selected'>
+            </td>
+        </tr>
+    </table>
+    <input type='submit' value='Search' class = 'submit'  />
+</form> <br />
+      ";

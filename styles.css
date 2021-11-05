@@ -1,8 +1,8 @@
 table.search
     {
-    border: 1px solid #FF00FF;
+    border: 1px solid #787878;
     padding: 10px;
-    background-color: #00FFFF;
+    background-color: #E8E8E8;
     font-weight: bold;
     }
 
@@ -14,24 +14,24 @@ table.data
 
 table.data, td.records
     {
-    border: 1px solid #F7BE81;
+    border: 1px solid #A8A8A8;
     border-collapse: collapse;
     }
 
 tr.header
     {
-    background-color: #A9BCF5;
+    background-color: #E0E0E0;
     font-weight: bold;
     }
 
 tr.header:hover
     {
-    background-color: #90EE90;
+    background-color: #B0B0B0;
     }
 
 tr.records 
     {
-    background-color: #FFF8DC;
+    background-color: #F8F8F8;
     border-bottom: 1px solid black;
     }
 
@@ -58,7 +58,7 @@ input.submit
     
 input.submit:hover
     {
-    background-color: green;
+    background-color: grey;
     cursor:pointer;
     }
 
@@ -74,7 +74,7 @@ ul#menu li
 
 ul#menu li a 
     {
-    background-color: #800000;
+    background-color: #101010;
     color: white;
 	font-weight: bold;
     padding: 10px 40px;
@@ -86,21 +86,3 @@ ul#menu li a:hover
     {
     background-color: #339900;
     }
-	
-p
-{
-    border: 4px dashed Red;
-    padding: 15px;
-    margin-left: 1cm;
-	margin-right: 2cm;
-    margin-top: 10px;
-    color: #00008B;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 24px;
-    font-family: "Times New Roman", Times, serif;
-    text-indent: 50px;
-    background-image: url("bh.jpg");
-}	
-	

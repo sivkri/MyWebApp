@@ -1,0 +1,12 @@
+if(isset($_POST['gene_name_selected']))
+    {
+    $gene_name_selected = $_POST['gene_name_selected'];
+    }
+else
+    {
+    $gene_name_selected = '';
+    }
+	
+	
+// same for: chromosome_selected, biotype_selected, description_selected
+ 
